@@ -1,0 +1,28 @@
+/* height: 1em, which is the size of current font 30vh */
+
+.container-roll {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 1em; 
+    width: 1em;
+    color: white;
+    font-size: 30vh;
+    line-height: 1;
+    font-family: Roboto Light;
+    margin: 2vh;
+}
+
+/* center letters inside the <div> */
+.letter-ticker {
+    display: flex;
+    justify-content: center;
+}
+
+.letter {
+    margin-top: -32vh;
+    position: absolute;
+    padding: 0 0.075em;    
+}
+
+
